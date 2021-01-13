@@ -1,0 +1,53 @@
+.categories {
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px auto;
+}
+
+.categories form {
+    width: 390px;
+    margin-bottom: 20px;
+}
+
+.categories label {
+    font-size: 1.5rem;
+    display: block;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.categories input, button {
+    height: 35px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #f15d89;
+}
+
+.categories input {
+    width: 310px;
+}
+
+.categories button {
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: .5px;
+    width: 70px;
+    background: #f15d89;
+    color: #fff;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.categories .row {
+    min-width: 490px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}

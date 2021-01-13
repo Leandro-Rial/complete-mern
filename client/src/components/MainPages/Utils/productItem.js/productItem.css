@@ -1,0 +1,65 @@
+.product_card {
+    max-width: 300px;
+    overflow: hidden;
+    padding: 15px;
+    box-shadow: 0 0 15px #ddd;
+    margin: 20px 0;
+    position: relative;
+}
+
+.product_box h2{
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 3rem;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: #000;
+}
+
+hr {
+    margin: 10px 0;
+}
+
+.product_box span {
+    color: crimson;
+    font-size: 1.1rem;
+}
+
+.product_box p {
+    width: 100%;
+    overflow: hidden;
+    margin: 10px 0;
+    font-size: 1.1rem;
+    color: #323232;
+}
+
+.row_btn {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row_btn a {
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 6px;
+    color: #fff;
+}
+
+#btn_buy {
+    background: #555;
+    margin-right: 5px;
+}
+
+#btn_view {
+    background: salmon;
+    margin-left: 5px;
+}

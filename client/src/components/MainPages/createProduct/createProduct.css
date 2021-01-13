@@ -1,0 +1,37 @@
+.create_product {
+    margin: 20px auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create_product form {
+    max-width: 500px;
+    min-width: 290px;
+    width: 100%;
+    margin: 15px 30px;
+}
+
+.create_product form .row {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.create_product form input, textarea {
+    width: 100%;
+    min-height: 40px;
+    padding: 8px;
+    font-size: 1.1rem;
+}
+
+.create_product form button {
+    width: 200px;
+    height: 40px;
+    background: #f15d89;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    cursor: pointer;
+}
